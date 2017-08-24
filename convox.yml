@@ -1,0 +1,6 @@
+services:
+  elasticsearch:
+    port: 9200
+    scale: 1
+    environment:
+      - xpack.security.enabled=false
